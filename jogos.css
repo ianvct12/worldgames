@@ -1,0 +1,134 @@
+#container{
+  margin:auto;
+  width:950px;
+}
+
+body{
+  background-image:url('star2.jpg');
+  background-repeat:no-repeat;
+  background-size:200%
+
+}
+#header{
+  padding:30px 0px;
+  font-family:gabriola;
+  font-size:30px;
+  text-align:center;
+  font-weight:bold;
+  color:white;
+  background-image:url("kimi3.gif");
+  background-repeat:no-repeat;
+  height:50px;
+  background-size:cover;
+}
+
+#nav{
+  background-image:linear-gradient(blue,darkblue);
+  padding:12px 16px;
+  overflow:hidden;
+  text-align:center;
+}
+
+#nav a{
+  color:white;
+  padding:20px 21px;
+  text-decoration:none;
+}
+
+#nav a:hover{
+  background-image:linear-gradient(yellow,gold,goldenrod,darkgoldenrod);
+  color:black;
+}
+
+#anime{
+  color:white;
+  text-align:center;
+  background-image:linear-gradient(blue,#b8b8e5);
+  height:50px;
+  font-family:gabriola;
+  font-size:30px;
+}
+
+#jogos{
+  color:white;
+  text-align:center;
+  background-image:linear-gradient(blue,#b8b8e5);
+  height:50px;
+  font-family:gabriola;
+  font-size:30px;
+}
+
+#aviso{
+  color:white;
+  text-align:center;
+  background-image:linear-gradient(#b9d4df,#c0c0d3,blue);
+  height:50px;
+  font-family:gabriola;
+  font-size:30px;
+}
+#content{
+  text-align:center;
+  color:white;
+  display:inline-block;
+  width:300px;
+  font-size:30px;
+  font-family:calibri; 
+  height:50px;
+}
+
+#left{
+  float:left;
+  width:325px;
+  height:50px;
+}
+
+#right{
+  float:right;
+  width:325px;
+  height:50px;
+}
+
+table{
+  color:white;
+  align-items:center;
+}
+
+table,tr,td{
+  border:5px solid blue;
+	border-collapse:collapse; 
+	text-align:center;
+	font-family:Trebuchet;
+	font-size:14pt;
+}
+th{
+  font-weight:bold;
+  font-size:25px;
+  color:white;
+  text-align:center;
+  font-family:gabriola;
+  text-decoration:underline;
+  text-decoration-style:double;
+}
+th:hover{
+  background-color:#88b4dd;
+	background-image:url('Navi_Artwork.png');
+	background-repeat:no-repeat;
+	background-size:30%
+}
+
+td:hover{
+  background-color:#88b4dd;
+	background-image:url('Navi_Artwork.png');
+	background-repeat:no-repeat;
+	background-size:30%
+
+}
+#footer{
+  text-align:center;
+  color:white;
+  clear:both;
+  margin-top:280px;
+  width:950px;
+  position:absolute;
+  padding:2px 0px;
+}

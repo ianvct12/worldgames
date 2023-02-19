@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+  <meta charset='UTF-8'>
+  <link href='cadastro.css' rel='stylesheet'>
+  <title>Trabalho para AV2</title>
+  <link rel="icon" href="triforce.png">
+</head>
+  
+<body>
+  <div id='container'>
+  <div id='header'>Tengaia Sekai</div>
+  <div id='nav'>
+    <a href='index.html'>Home</a>
+    <a href='contato.html'> Contato</a>
+    <a href='https://www.crunchyroll.com/pt-br/' target="_blank">Crunchyroll</a>
+    <a href='diversao.html'>Divirta-se</a>
+    <a href='jogos.html'>Jogos e Animes</a>
+  </div>
+    <br> <br>
+    <div id='left'></div>
+  <form method='POST' action='Trabalho.py'>
+    <fieldset><legend>Formulário de Cadastro</legend>
+      
+    <p class='formu'><label for='n'>Nome: <input type='text' id='n' name='nome' placeholder='Nome completo'></p>
+      
+   <p  class='formu'><label for='lg'>Crie um nome de usuário: <input type='text' name='login' id='lg' placeholder='Crie um login' maxlength=20></p>
+      
+  <p  class='formu'><label for='s'>Crie uma senha forte: <input type='password'id='s' name='senha' placeholder="Senha" maxlength=20></p>
+      
+  <p  class='formu'><label for='m'>Digite o seu e-mail: <input type='email' name='email' id='m' placeholder='Digite o e-mail'></p>
+
+<p class='formu'><label for='datan'>Data de Nascimento: <input type='date' name='datanasc' id='datan'></p>
+      
+<label for='num'><p class='formu'>Digite o seu telefone:
+      <input type='number' id='num' name='numero' placeholder="Telefone"/></p>
+  
+<p class='formu'><label for='Estado'>Região: <select>
+  <option>Sudeste</option>
+  <option>Sul</option>
+  <option>Centro-oeste</option>
+  <option>Norte</option>
+  <option>Nordeste</option>
+</select>
+  
+<p><fieldset><legend>Sexo:</legend>
+  <input type='radio' name='sexo' id='s1'><label for='s1' class='formu'>Masculino
+  <input type='radio' name='sexo' id='s2'><label for='s2' class='formu'>Feminino
+  <input type='radio' name='sexo' id='s3'><label for='s3' class='formu'>Outros </p> </fieldset>
+  
+
+   <p class='formu'>Selecione os seus interesses: 
+    <input type='checkbox' id='l1' name='interesses'><label for='l1'>Jogos
+    <input type='checkbox' id='l2' name='interesses'><label for='l2'>Animes
+    <input type='checkbox' id='l3' name='interesses'><label for='l3'>Mangás
+    <input type='checkbox' id='l4' name='interesses'><label for='l4'>Notícias
+    <input type='checkbox' id='l5' name='interesses'><label for='l5'>Visual Novel
+   </p>
+    <p>
+      <p class='formu'>Observações: </p>
+         <textarea cols=50 rows=10 name='observacoes' maxlength=256></textarea>
+    </fieldset>
+
+            <p><input type='submit' class='bt'/>
+            <input type='reset' value='Limpar' class='bt'/>
+            <input type='button' value='Salvar' class='bt'/> 
+    </form>
+   <div id='footer'>Site criado especialmente para a AV2 de WEB</div>
+  </div>
+   
+      
+</body>
+  
+</html>
