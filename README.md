@@ -1,1 +1,1 @@
-# worldgames.github.io
+# worldgames
